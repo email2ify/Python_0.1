@@ -1,0 +1,22 @@
+To retrieve a value from a dictionary,
+you obtain it using its corresponding key.
+
+Example:
+Suppose we have a dictionary named `person` with the entry {"name": "James"}.
+(person = {"name": "James"})
+To obtain the value associated with the key "name",
+you would use `person["name"]`, which returns "James".
+
+
+In 1_dictionaries.py, the last nested for loop explained:
+
+- The first loop iterates through the dictionary `students`. `s` represents the keys (student names) in the dictionary.
+- The second loop iterates through each key-value pair within each student dictionary in the list `students`.
+- The variable `student` represents each dictionary in the list of student dictionaries.
+- The variable `info` represents each key (attribute) within the current student dictionary.
+
+This approach allows you to access and print the information stored in dictionaries within a loop.
+
+Dictionary with For Loop:
+You can use a for loop to iterate through a dictionary's keys, values, or key-value pairs.
+The loop simplifies accessing and processing the data stored in the dictionary.

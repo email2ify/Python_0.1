@@ -1,0 +1,14 @@
+
+always ask user for withdrawal amount till they quit
+
+when you ask user for withdrawal amount, check if it is greater than the account balance
+
+if it is greater than account balance, stop the code
+
+but if it is not (less than account balance), subtract the withdrawal amount
+from the account balance and show the user
+
+then ask user again if they want to withdraw
+
+if yes, continue
+if no, stop the code
