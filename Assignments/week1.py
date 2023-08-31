@@ -3,4 +3,4 @@
 # HINTS:
 #     - No need to convert the user’s input to an int if you check for equality with "36", a str, rather 36, an int!
 
-# Example output is in week1output.png
+# Example output is at Assignments/outputs/week1.png

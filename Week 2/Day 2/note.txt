@@ -1,0 +1,14 @@
+Enumerate:
+The enumerate function adds a counter to an iterable (like a list or string) and returns an iterator of pairs containing the counter and the value from the iterable.
+It's useful for obtaining both the index and value during iteration.
+
+We saw an example of this in our 3_enumerate.py file when we used it in the shopping_cart list
+(0, 'milk')
+(1, 'cereal')
+(2, 'beans')
+(3, 'corn')
+
+Range:
+The range function generates a sequence of numbers within a specified range.
+It's often used in loops to define the number of iterations or to create lists of numbers.
+
