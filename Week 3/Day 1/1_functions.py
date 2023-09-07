@@ -9,6 +9,6 @@ def greeting():
     return "Welcome"
 
 
-print("Hello, World!")
-
+# to call a function
 hello_world()
+greeting()
