@@ -3,9 +3,13 @@
 
 # You can see an example output at Assignments/outputs/odd.png
 
-number = int(input("Enter number? "))
+while True:
+    number = int(input("Enter number? "))
 
-if number % 2 == 0:
-    print("This is an even number")
-else:
-    print("This is an odd number")
+    if number % 2 == 0:
+        print("This is an even number")
+
+    else:
+
+        print("This is an odd number,bye")
+        break
