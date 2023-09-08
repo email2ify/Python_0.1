@@ -1,0 +1,19 @@
+Function Documentation:
+Function documentation, often referred to as docstrings, provides a brief explanation of what a function does, its parameters, and return values.
+It helps users understand how to use the function and its purpose.
+Proper documentation enhances code readability and collaboration.
+
+Global vs. Local Variables:
+Global variables are defined outside of any function and can be accessed from any part of the code.
+Local variables are defined within a specific function and are only accessible within that function's scope.
+Global variables should be used sparingly to avoid unintended side effects and ensure code clarity.
+
+Global Keyword:
+The "global" keyword in Python is used to declare a variable as global within a function.
+It allows you to modify a global variable from within a function's scope.
+However, it's generally considered a best practice to minimize the use of global variables to maintain code clarity and prevent unintended side effects.
+
+Lambda Functions:
+Lambda functions, also known as anonymous functions, are concise, one-line functions defined using the "lambda" keyword.
+They are often used for small, simple operations and can be assigned to variables or passed as arguments to other functions.
+Lambda functions are useful for quick, throwaway functions without the need for a formal function definition.
