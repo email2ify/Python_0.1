@@ -2,11 +2,11 @@
 # and returns the minimum(smallest) number in the list
 
 def number(nums):
-    min_num = int(100)
+    min_num = nums[0]
     for num in nums:
         if num < min_num:
             min_num = num
                     
     print(min_num)
     
-number([23,46,4,9,2,15,0.1])
+number([230,460,400,900,200,150,147])
