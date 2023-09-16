@@ -6,18 +6,15 @@
 # Example output is at Assignments/outputs/week1.png
 
 
-question = '36'
-answer = 'thirty six'
+answer_1 = '36'
+answer_2 = 'thirty six'
+answer_3 = 'thirty-six'
 
 while True:
 
-    user = input("What's the answer to the Great Question of Life? ")
+    question = input("What's the answer to the Great Question of Life? ")
 
-    if user == question and answer:
-        print('Yes')
-        break
-
-    elif user == answer:
+    if question == answer_1 or question == answer_2 or question == answer_3:
         print('Yes')
         break
 
