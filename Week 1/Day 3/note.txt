@@ -1,9 +1,0 @@
-if: This is like asking a question about one thing. If the answer to the question is "yes," you do something. If the answer is "no," you might not do anything related to that question.
-
-elif (else-if): Think of this like asking another question if the first question's answer was "no." It's like having a backup plan. If the first question's answer was "no," you can ask a new question and do something based on that.
-
-else: This is like saying, "If none of the previous questions were answered with 'yes,' then do this as a default." It's like having a general plan if none of the other plans work out.
-
-In some situations, when you only want to think about two possibilities, like "Is something equal or not equal?" you can just use an if and an else together. You don't need an elif because there are only two choices, and you can easily cover both with these two.
-
-So, if checks one thing, elif adds more options if the first thing isn't true, and else is a backup if none of the things before it are true. If you're only thinking about two options, using if and else is a simpler way to handle it.
