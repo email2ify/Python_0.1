@@ -1,0 +1,33 @@
+try: This block contains code that might raise an exception.
+
+except: Code in this block is executed if an exception is raised in the try block.
+It specifies how to handle the exception.
+
+else: This block is executed if no exceptions occur in the try block.
+It's optional and used for code that should run only when there are no exceptions.
+
+finally: This block is always executed, regardless of whether an exception occurred or not.
+It's commonly used for cleanup operations.
+
+
+FURTHER EXPLANATION OF EXAMPLES
+
+In the modified version of the "get_int" function (Example 6), we have removed the "break" statement because it's no longer necessary due to the way the code is structured.
+Here's why:
+
+1. The "return" Statement:
+In Python, when a "return" statement is encountered in a function, it immediately exits the function and returns the specified value to the caller.
+In our case, the "return x" statement is used to return the valid integer input to the caller as soon as it's successfully converted from user input.
+This means that as soon as a valid integer is obtained, the function will exit and return that integer value.
+
+2. Loop Termination:
+Since the "return" statement exits the function, it effectively terminates the loop as well.
+There's no need for an additional "break" statement to exit the loop because the function itself will exit at that point.
+
+3. Readability:
+Removing the "break" statement simplifies the code and makes it more readable.
+It's clear that the function will return the integer value when it's successfully obtained, without the need for an extra keyword ("break") to indicate loop termination.
+
+To wrap it all up, the modified version of the "get_int" function is designed to return the valid integer input as soon as it's available,
+and this is achieved by using the "return" statement. The "break" statement is no longer needed because the function naturally exits when it encounters "return".
+This approach is both cleaner and more straightforward.
