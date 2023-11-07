@@ -1,7 +1,7 @@
 # variables
 
 # variables are containers for storing data values
-# A varaible is created by assigning a value to it using the equalto (=) sign
+# A variable is created by assigning a value to it using the equalto (=) sign
 # All these are examples of variables:
 
 a = "shoe"
