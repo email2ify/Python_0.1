@@ -1,40 +1,31 @@
-string = "Alice is \"smart\\\" and she is going to her mum's school"
+from PIL import Image
+# file = open('doc.txt')
 
-# escape
-string = '''
-This is "line" 'one'
+# try:
+#     pass
+# finally:
+#     file.close()
 
-THis is line two'
+# reading from a file
 
-ghkrp
-'''
+# with open('doc.txt', 'r') as file:
+#     lines = file.readlines()
+#     print(lines)
 
-string = "Hello, how are you doing today?"
 
-# print(string[0:9])
+# fruits = ['apple is color green', 'orange is color orange', 'cherry is color red']
 
-# print(string.lower())
+# with open('doc.txt', 'w') as file:
+#     # file.write('The footballer is a great one.\nThe man is a great one')
+#     for fruit in fruits:
+#         file.write(fruit + '\n')
+#     file.writelines(fruits)
 
-# print("lo," in string.lower())
+# with open('doc.txt', 'a') as file:
+#     file.write('The school is big enough for all of us\n')
 
-# Alice is "smart" and she is going to her mum's school
 
-# Alice is "smart\" and she is going to her mum's school
-
-age = 65
-
-height = 60
-
-string = "I am " + str(age) + " year old"
-
-# string interpolation
-# string = "I am John.\tI am tall.\nI am a fotballer"
-string = "I am %s YEars old  AnD %s inches tall" % (age, height)
-
-# string = "john23"
-
-string_list = string.split()
-
-print(string_list)
-
-print('_'.join(string_list))
+with open('doc.txt', 'r') as doc, open('new.txt', 'w+') as new:
+    doc_lines = reversed(doc.readlines())
+    for line in doc_lines:
+        new.write((f"+ {line}"))

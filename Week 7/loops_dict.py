@@ -66,7 +66,7 @@ new_dict = {}
 
 for number in numbers:
     new_dict[str(number)] = number ** 3
-    
+
 # print(new_dict)
 
 
@@ -81,7 +81,7 @@ students_rank = {}
 for student in students:
     s_idx = students.index(student)
     # students_rank[s_idx + 1] = student
-    students_rank.update({(s_idx+1): student})
+    students_rank[s_idx+1] = student
 
 
 students_rank = {students.index(student)+1: student for student in students}
