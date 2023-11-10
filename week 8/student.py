@@ -7,6 +7,9 @@ class Student:
         self.age = age
         self.score = score
 
+    def __repr__(self):
+        return f"<{self.name} {self.score}>"
+
 
 class Course:
     def __init__(self, name, max_students):
@@ -21,7 +24,7 @@ class Course:
         return "Can't take any more students"
     
     def remove_student(self, student):
-        pass
+        self.registered_students.discard(student)
 
 s1 = Student("john", 14, 65)
 s2 = Student("james", 19, 95)
@@ -30,7 +33,15 @@ s4 = Student("chris", 21, 82)
 
 course1 = Course("anatomy", 3)
 
+print(course1.add_student(s2))
 print(course1.add_student(s1))
+print(course1.add_student(s4))
+
+print(course1.registered_students)
+
+course1.remove_student(s2)
+course1.remove_student(s1)
+course1.remove_student(s3)
 
 print(course1.registered_students)
 
