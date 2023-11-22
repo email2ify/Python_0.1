@@ -1,3 +1,4 @@
+# superclass or parent class, base class
 class Animal:
     def __init__(self, name, age):
         self.name = name
@@ -10,10 +11,8 @@ class Animal:
         print(f"{self.name} is now sleeping")
 
 
+# subclass or child class
 class Cat(Animal):
-    def __init__(self):
-        pass
-
     def speak(self):
         print('meow')
 
@@ -21,6 +20,6 @@ class Cat(Animal):
         print("I am dancing")
 
 
-cat1 = Cat()
-cat1.roll()
+cat1 = Cat("Tin", 3)
+cat1.sleep()
 
