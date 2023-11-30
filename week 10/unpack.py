@@ -13,9 +13,9 @@ name = ["john", "ashley"]
 first_name, last_name  = name 
 
 
-# first_name, _ = input('What is your name? ').split()
+first_name, _ = input('What is your name? ').split()
 
-# print(f"Welcome, {first_name}")
+print(f"Welcome, {first_name}")
 
 
 def convert_currency(dollar, nickel, cent):
@@ -29,6 +29,7 @@ def convert_currency(dollar, nickel, cent):
 money1 = (12, 65, 0)
 c = convert_currency(*money1)
 # convert_currency(12, 65, 0)
+print(c)
 
 
 money2 = {"nickel": 5,"cent": 1, "dollar": 13}
